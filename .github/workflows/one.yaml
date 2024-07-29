@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Suapp
+    steps:
+      - name: Install suave-geth
+        uses: ferranbt/flashbots-toolchain@v0.1
+
+      - name: Which suave-geth
+        run: suave-geth version
