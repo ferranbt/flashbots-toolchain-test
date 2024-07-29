@@ -6,7 +6,7 @@ jobs:
     name: Suapp
     steps:
       - name: Install suave-geth
-        uses: ferranbt/flashbots-toolchain@v0.1
+        uses: ferranbt/flashbots-toolchain@v0.2
 
       - name: Which suave-geth
         run: suave-geth version
