@@ -8,7 +8,14 @@ jobs:
       - name: Install suave-geth
         uses: ferranbt/flashbots-toolchain@v0.4
         with:
+          suave-geth: latest
           builder-playground: latest
 
       - name: Which suave-geth
         run: suave-geth version
+
+      - name: Which 2
+        run: which suave-geth
+
+      - name: Which builder playground
+        run: which builder-playground
