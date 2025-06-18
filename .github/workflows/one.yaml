@@ -22,3 +22,6 @@ jobs:
 
       - name: Run builder playground
         run: docker compose
+
+      - name: Run other docker-compose
+        run: docker-compose
