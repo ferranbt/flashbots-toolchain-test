@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Suapp
     steps:
-      - name: Install suave-geth
-        uses: ferranbt/flashbots-toolchain@v0.4
+      - name: Install stuff
+        uses: ferranbt/flashbots-toolchain@v0.3
         with:
           suave-geth: latest
           builder-playground: latest
