@@ -19,3 +19,6 @@ jobs:
 
       - name: Which builder playground
         run: which builder-playground
+
+      - name: Run builder playground
+        run: docker compose
