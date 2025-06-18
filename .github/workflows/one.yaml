@@ -6,7 +6,7 @@ jobs:
     name: Suapp
     steps:
       - name: Install stuff
-        uses: flashbots/flashbots-toolchain@v0.3
+        uses: ferranbt/flashbots-toolchain@v0.5
         with:
           suave-geth: latest
           builder-playground: latest
